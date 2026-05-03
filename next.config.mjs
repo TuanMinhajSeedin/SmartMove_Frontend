@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
-const backend = process.env.SMARTMOVE_BACKEND_URL || "http://127.0.0.1:8000";
+const backend =
+  process.env.SMARTMOVE_BACKEND_URL ||
+  "https://smartmovebackend-production.up.railway.app";
 
 const nextConfig = {
   reactStrictMode: true,

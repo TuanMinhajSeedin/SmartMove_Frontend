@@ -22,7 +22,8 @@ Frondend/
 ```
 
 The Next.js app proxies `/api/*` to the FastAPI backend (configurable via
-`SMARTMOVE_BACKEND_URL`, defaulting to `http://127.0.0.1:8000`).
+`SMARTMOVE_BACKEND_URL`, defaulting to the production API at
+`https://smartmovebackend-production.up.railway.app`).
 
 ## Prerequisites
 
@@ -105,7 +106,7 @@ Open <http://localhost:3000>.
 
 ## Customising
 
-- Change the backend URL by setting `SMARTMOVE_BACKEND_URL` before
-  `npm run dev` / `npm run build`.
+- Point at a local API with `SMARTMOVE_BACKEND_URL=http://127.0.0.1:8000` before
+  `npm run dev` / `npm run build` (or set another URL to override the Railway default).
 - Add suggestion chips in `components/ChatApp.tsx` (`SUGGESTIONS`).
 - Adjust theme colours in `tailwind.config.ts`.
