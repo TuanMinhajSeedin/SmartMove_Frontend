@@ -18,9 +18,10 @@ import { LanguageSwitcher } from "./LanguageSwitcher";
 
 const SUGGESTIONS = [
   "Bus to Kandy from Colombo tomorrow at 8am",
-  "Cheapest train to Galle next Monday morning",
-  "Taxi from airport to Colombo Fort, fare under LKR 5000",
+  "Cheapest bus to Galle next Monday morning",
+  "කොළඹ සිට මතලේට බස් ගාස්තු 1000ta adu with time schedules",
   "මට කොළඹ සිට මහනුවරට යාමට අවශ්‍යයි",
+  "මට කොළඹ සිට මහනුවරට යාමට අවශ්‍යයි. මට උදේ 8ත් 9ත් අතර ගාස්තු ඇතුළු සියලුම විස්තර ලබා දෙන්න.",
 ];
 
 function uid() {
